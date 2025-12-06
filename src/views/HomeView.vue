@@ -233,11 +233,6 @@ const projects = [
     description: 'Emuchull (sitio en Netlify).',
     tech: ['Vue', 'Vite'],
     live: 'https://emuchull.netlify.app/'
-  },
-  {
-    name: 'Mi Portafolio',
-    description: 'Portafolio personal construido con Vite + Vue 3.',
-    tech: ['Vue 3', 'Vite', 'CSS']
   }
 ]
 </script>
