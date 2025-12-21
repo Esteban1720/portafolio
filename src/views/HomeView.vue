@@ -209,29 +209,30 @@ const contact = {
 const projects = [
   {
     name: 'Control de Acceso',
-    description: 'App de control de acceso usando Firebase y Vue.',
-    tech: ['Vue', 'Firebase'],
+    description: 'Aplicación Flutter para control de acceso (registro y escaneo de códigos) usando Firebase Firestore. APK disponible en releases.',
+    tech: ['Flutter', 'Firebase', 'Firestore'],
     repo: 'https://github.com/Esteban1720/demo',
     live: 'https://controldeaccesoup.netlify.app/'
   },
   {
     name: 'Ruta Limpia',
-    description: 'Colaborador en plataforma web con autenticación y panel administrativo.',
-    tech: ['Vue', 'Node', 'MySQL'],
+    description: 'Sistema RutaLimpia para gestión de rutas y vehículos. Mapas interactivos con Mapbox; autenticación y panel administrativo.',
+    tech: ['Vue', 'Node', 'Mapbox', 'MySQL', 'Tailwind'],
     collab: 'Colaborador',
-    repo: 'https://github.com/gabrielsanchez16/Project-University.git',
+    repo: 'https://github.com/gabrielsanchez16/Project-University'
   },
   {
     name: 'Gestión de Citas Médicas',
     subtitle: 'Sistema de turnos y gestión clínica',
-    description: 'Aplicación web en Java (Spring Boot) para registrar pacientes, médicos y clínicas, gestionar agendas y reportes. Vistas con Thymeleaf y reportes con JasperReports.',
+    description: 'Aplicación Java (Spring Boot) para gestionar pacientes, agendas y reportes. (Repositorio privado o movido).',
     tech: ['Java 17', 'Spring Boot', 'Thymeleaf', 'MariaDB', 'Spring Security', 'JasperReports'],
-    repo: 'https://github.com/Esteban1720/Electiva2'
+    repo: null
   },
   {
-    name: 'Emuchull',
-    description: 'Emuchull (sitio en Netlify).',
-    tech: ['Vue', 'Vite'],
+    name: 'EmuChull',
+    description: 'Launcher de emuladores creado en Flutter. Instalador disponible en la página y releases en GitHub.',
+    tech: ['Flutter', 'Dart'],
+    repo: 'https://github.com/Esteban1720/EmuChull',
     live: 'https://emuchull.netlify.app/'
   }
 ]
