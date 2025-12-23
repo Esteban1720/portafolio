@@ -226,7 +226,7 @@ const projects = [
     subtitle: 'Sistema de turnos y gestión clínica',
     description: 'Aplicación Java (Spring Boot) para gestionar pacientes, agendas y reportes. (Repositorio privado o movido).',
     tech: ['Java 17', 'Spring Boot', 'Thymeleaf', 'MariaDB', 'Spring Security', 'JasperReports'],
-    repo: null
+    repo: 'https://github.com/Esteban1720/GestiondeCitasMedicas.git'
   },
   {
     name: 'EmuChull',
